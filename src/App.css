@@ -1,0 +1,51 @@
+body{
+  font-family: 'Oswald', sans-serif;
+  background: #161a1d;
+  color: #edf2f4;
+}
+button{
+  /* color: white; */
+  color: #edf2f4;
+
+}
+.Navbar{
+  display: flex;
+  background: #161a1d;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  padding: 0px 30px;
+  transition: 0.2s ease;
+}
+
+.Navbar h4{
+  letter-spacing: 2px;
+}
+.Navbar button{
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0px 10px;
+  transition: 0.2s ease;
+  font-weight: bold;
+}
+
+.Navbar button:hover{
+  color: #8da9c4;
+}
+
+.Landing{
+  height: 90vh;
+  
+}
+
+.Navbar-active{
+  box-shadow: 0px 2px 10px black;
+}
+
+.Navbar button span{
+  color: #8da9c4;
+  font-weight: bold;
+}
