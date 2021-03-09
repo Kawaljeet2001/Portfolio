@@ -49,3 +49,54 @@ button{
   color: #8da9c4;
   font-weight: bold;
 }
+
+.profiles-div{
+  margin-top: 430px;
+  margin-left: 40px;
+  position: fixed;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  width: 2%;
+  height: 320px;
+  
+
+}
+
+.vl{
+  background: white;
+  height: 100px;
+  width: 2px;
+}
+
+.fa{
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+.fa:hover{
+  color: #8da9c4 !important;
+}
+
+.email{
+  position: fixed;
+  right: -70px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 435px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.email p{
+  display: block;
+  font-family: cursive;
+  letter-spacing: 1px;
+  font-weight: 100;
+  margin-left: 5px;
+  transform: rotate(90deg);
+}
+
+.email .vl{
+  margin-top: 135px;
+}
