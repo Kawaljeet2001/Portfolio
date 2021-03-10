@@ -15,6 +15,15 @@ const Landing = () => {
                 <p>batrakawaljeetsingh@gmail.com</p>
                 <div className = "vl"></div>
             </div>
+            
+            <div className = "Home">
+                <h3>Hi, I am</h3>
+                <h1>Kawaljeet Singh Batra.</h1>
+                <div className = "about-para">
+                    <p>I am a Tech Enthusiast and an Aspiring Software Engineer. I like to build products that. Currently, I am pursuing my B.Tech in Information Technology from Indian Institute of Information Technology, Gwalior.</p>
+                </div>
+                <button className = "Letsconnect">Let's Connect </button>
+            </div>
         </div>
     )
 }

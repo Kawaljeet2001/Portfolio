@@ -1,11 +1,25 @@
 body{
-  font-family: 'Oswald', sans-serif;
+  /* font-family: 'Oswald', sans-serif;
+   */
+  font-family: 'Inconsolata', monospace;
   background: #161a1d;
   color: #edf2f4;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background: red; */
 }
 button{
   /* color: white; */
   color: #edf2f4;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  border: none;
 
 }
 .Navbar{
@@ -15,29 +29,56 @@ button{
   align-items: center;
   position: sticky;
   top: 0;
+  width: 96%;
+  height: 10vh;
   padding: 0px 30px;
   transition: 0.2s ease;
 }
 
 .Navbar h4{
   letter-spacing: 2px;
+  animation: fadein 3s ease;
 }
 .Navbar button{
   background: none;
   border: none;
   outline: none;
   cursor: pointer;
-  margin: 0px 10px;
+  margin-left: 10px;
+  margin-right: 10px;
   transition: 0.2s ease;
+  opacity: 0;
   font-weight: bold;
+  animation-fill-mode: forwards;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-family: 'Inconsolata', monospace;
+
 }
 
+#resume{
+  display: block;
+  height: 40px;
+  width: 80px;
+  background: none;
+  color: #8da9c4;
+  border: 1px solid #8da9c4;
+  border-radius: 6px;
+  margin-top: 18px;
+}
+
+#resume:hover{
+  background: rgba(141,169,196 , 0.2)
+  
+}
 .Navbar button:hover{
   color: #8da9c4;
 }
 
 .Landing{
   height: 90vh;
+  display: flex;
+  justify-content: center;
   
 }
 
@@ -51,15 +92,19 @@ button{
 }
 
 .profiles-div{
-  margin-top: 430px;
-  margin-left: 40px;
+  left: 40px;
+  margin-top: 400px;
   position: fixed;
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
+  opacity: 0;
   align-items: center;
   width: 2%;
   height: 320px;
+  animation: fadein 3s ease;
+  animation-delay: 2s ;
+  animation-fill-mode:forwards ; 
   
 
 }
@@ -80,7 +125,8 @@ button{
 
 .email{
   position: fixed;
-  right: -70px;
+  right: 50px;
+  width: 50px;
   display: flex;
   flex-direction: column;
   margin-top: 435px;
@@ -99,4 +145,165 @@ button{
 
 .email .vl{
   margin-top: 135px;
+}
+
+@keyframes fadein{
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes navbartext{
+  0%{
+    opacity: 0%;
+    margin-bottom: 40px;
+  }
+
+  100%{
+    opacity: 100%;
+    margin-bottom: 0px;
+  }
+}
+
+.Navbar button:nth-child(1){
+  animation: navbartext 1s ease;
+  animation-fill-mode: forwards;
+  /* animation-delay: .3s; */
+}
+
+
+.Navbar button:nth-child(2){
+  animation: navbartext 1s ease;
+  animation-delay: .15s;
+  animation-fill-mode: forwards;
+}
+.Navbar button:nth-child(3){
+  animation: navbartext 1s ease;
+  animation-delay: .30s;
+  animation-fill-mode: forwards;
+}
+.Navbar button:nth-child(4){
+  animation: navbartext 1s ease;
+  animation-delay: .45s;
+  animation-fill-mode: forwards;
+}
+.Navbar button:nth-child(5){
+  animation: fadein 1s ease;
+  animation-delay: .60s;
+  animation-fill-mode: forwards;
+}
+
+#navbar-holder{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/*Styling for Home Section*/
+
+.Home{
+  /* background: red; */
+  margin-top: 120px;
+  width: 60%;
+}
+
+.Home h3{
+  color: #8da9c4;
+  /* opacity: 0; */
+  /* margin-bottom: -20px; */
+  animation: hi 1s ease;
+  animation-delay: 1s ;
+  animation-fill-mode: forwards;
+}
+.Home h1{
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: -10px;  
+  /* opacity: 0; */
+  animation: hometext-name 1s ease;
+  animation-delay: 1s ;
+  animation-fill-mode: forwards;
+  
+}
+
+.about-para p{
+  width: 65%;
+  margin-top: -10px;
+  opacity: 0.9;
+  line-height:22px;
+  font-size: 16px;
+}
+
+/* @keyframes hi{
+  0% {
+    margin-bottom: -20px;
+    opacity: 0;
+ }
+ 100% {
+   margin-bottom: 0px;
+   opacity: 1;
+ }
+} */
+/* @keyframes hometext-name{
+  0% {
+    margin-top: 20px;
+    opacity: 0;
+ }
+ 100% {
+   margin-top: -10px;
+   opacity: 1;
+ }
+} */
+
+.Letsconnect{
+  display: block;
+  height: 40px;
+  width: 150px;
+  font-size: 15px;
+  background: none;
+  color: #8da9c4;
+  border: 1px solid #8da9c4;
+  border-radius: 6px;
+  margin-top: 18px;
+}
+
+.Letsconnect:hover{
+  background: rgba(141,169,196 , 0.2)
+}
+
+
+/*Styling for section*/
+
+.Section{
+  /* background: green; */
+  width: 60%;
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+  /* justify-content: center; */
+  
+}
+
+.Section .heading{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.Section .heading span{
+  color: #8da9c4;
+}
+
+.Section .heading div{
+  width: 350px;
+  height: 0.5px;
+  margin-left: 15px;
+  background-color: #8da9c4;
 }

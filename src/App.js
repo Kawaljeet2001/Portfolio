@@ -2,14 +2,14 @@ import React from 'react'
 import "./App.css";
 import Navbar from  "./Components/Navbar";
 import Landing from "./Components/Landing";
-import About from "./Components/About";
+import Section from "./Components/Section";
 
 const App = () => {
   return (  
-    <div>
+    <div className = "App">
       <Navbar/>
       <Landing/>
-      <About/>
+      <Section/>
    </div>
   )
 }

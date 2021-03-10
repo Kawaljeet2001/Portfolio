@@ -12,16 +12,21 @@ const Navbar = () => {
         setchangenavbar(false);
     }
     
+    // window.onload(() => {
+    //     var logo = document.getElementById("navbar-logo");
+        
+    // })
+    window.addEventListener('load' , () => {})
     window.addEventListener('scroll' , changebackground)
     return (
         <div className = {changenavbar ? 'Navbar Navbar-active' : 'Navbar'}>
-            <h4>Kawaljeet Singh Batra</h4>
-            <div>
-                <button><span>1.</span>{'\u00A0'} About</button>
-                <button><span>2.</span>{'\u00A0'} Experience</button>
-                <button><span>3.</span>{'\u00A0'} Projects</button>
-                <button><span>4.</span>{'\u00A0'} Contact</button>
-                <button><span>5.</span>{'\u00A0'} Resume</button>
+            <h4 id = "navbar-logo">Kawaljeet Singh Batra</h4>
+            <div id = "navbar-holder">
+                <button><span>01.</span>{'\u00A0'} About</button>
+                <button><span>02.</span>{'\u00A0'} Experience</button>
+                <button><span>03.</span>{'\u00A0'} Projects</button>
+                <button><span>04.</span>{'\u00A0'} Contact</button>
+                <button id = "resume">Resume</button>
             </div>
         </div>
     )
