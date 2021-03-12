@@ -6,6 +6,9 @@ body{
   color: #edf2f4;
 }
 
+.About-Section{
+  opacity: 0;
+}
 .Section a {
   text-decoration:none;
   color: white;
@@ -92,6 +95,28 @@ button{
   
 }
 
+.Landing .Home{
+  /* padding-top: 30px; */
+
+  opacity: 0;
+
+  animation: Landingload 1s ease;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  
+}
+
+@keyframes Landingload{
+  0% {
+    opacity: 0;
+    padding-top: 30px;
+  }
+  100%{
+    opacity: 1;
+    padding-top: 0px;
+  }
+}
+
 .Navbar-active{
   box-shadow: 0px 2px 10px black;
 }
@@ -142,6 +167,10 @@ button{
   margin-top: 435px;
   align-items: center;
   justify-content: space-evenly;
+  opacity: 0;
+  animation: fadein 3s ease;
+  animation-delay: 2s ;
+  animation-fill-mode:forwards ; 
 }
 
 .email p{
@@ -322,6 +351,7 @@ button{
 
 .Experience-Section{
   margin-top: 100px;
+  opacity: 0;
 }
 
 .Experience-Section .left-container{
@@ -375,6 +405,9 @@ button{
   margin-top: 30px;
 }
 
+.Projects-Section{
+  opacity: 0;
+}
 .project-image{
   flex-basis: 50%;
   display: flex;

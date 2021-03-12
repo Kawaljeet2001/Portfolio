@@ -1,10 +1,30 @@
-import React from 'react'
+import React , {useRef} from 'react'
 import profile from "../profile.jpeg";
 
-const Section = (props) => {
-    
+const Section = () => {
+    const ref = useRef();
+
+    function getdivheights() {
+        var height1 = document.getElementsByClassName("About-Section");
+        // console.log(height1);
+
+        return height1;
+    }
+
+    window.addEventListener('scroll', () => {
+
+        var elm = getdivheights()[0];
+        // console.log(elm.style)
+        if (window.scrollY > elm.offsetTop - 250) {
+            ref.current.style.opacity = '1';
+            ref.current.style.animation = 'Landingload 1s ease';
+            ref.current.style.animationFillMode = 'forwards';
+        }
+ })
+  
+
     return (
-        <div className = "Section" ref = {props.ref}>
+        <div ref = {ref} className = "About-Section Section" >
             <div className = "heading">
                 <h2><span>01.</span> About Me</h2>
                 <div></div>

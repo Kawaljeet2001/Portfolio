@@ -1,8 +1,33 @@
-import React from 'react'
+import React , {useRef} from 'react'
 
 const ExperienceSection = () => {
+    const ref = useRef();
+
+    
+  function getdivheights()
+  {
+    var height1 = document.getElementsByClassName("Experience-Section");
+    // console.log(height1);
+
+    return height1;
+  }  
+
+  window.addEventListener('scroll' , () => {
+
+    var elm = getdivheights()[0];
+    // console.log(elm.style)
+    if(window.scrollY > elm.offsetTop - 250)
+    {
+    ref.current.style.opacity = '1';
+    ref.current.style.animation = 'Landingload 1s ease';
+    ref.current.style.animationFillMode = 'forwards';
+    }
+ })
+  
+
+
     return (
-        <div className = "Section Experience-Section">
+        <div ref = {ref} className = "Section Experience-Section">
             <div className = "heading">
                 <h2><span>02.</span> Where I've worked</h2>
                 <div></div>
