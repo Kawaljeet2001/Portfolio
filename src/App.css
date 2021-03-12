@@ -460,3 +460,62 @@ button{
 .project-info .project-desc ul li{
   margin: 20px 0px;
 }
+
+.Other-Projects-Section{
+  opacity: 0;
+  margin-top: 30px;
+}
+.OtherProjectsCard{
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 16vw;
+  padding: 10px 20px;
+  height: 400px;
+  margin: 0px 7px;
+  background-color: #232a2f;
+  border-radius: 4px;
+  margin-top: 20px;
+  transition: 0.2s ease;
+}
+.OtherProjectsCard:hover{
+  margin-top: 12px;
+}
+.project-card-holder{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+}
+
+.card-Tech-stack{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 10px;
+
+}
+.card-title-desc{
+  margin-top: 10px;
+}
+.card-title-desc p{
+  opacity: 0.7;
+}
+.card-Tech-stack p{
+  color: #8da9c4;
+  margin: 8px 12px 0px 0px;
+  /* margin-right: 7px;  */
+  font-size: 13px;
+}
+.card-links{
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card-links a{
+  margin-left: 20px;
+}

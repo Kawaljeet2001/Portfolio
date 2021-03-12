@@ -5,6 +5,7 @@ import Landing from "./Components/Landing";
 import Section from "./Components/Section";
 import ExperienceSection from "./Components/ExperienceSection";
 import ProjectSection from "./Components/ProjectSection"
+import MoreProjects from "./Components/MoreProjects";
 
 const App = () => {
   const ref = useRef();
@@ -47,7 +48,7 @@ const App = () => {
       <Section/>
       <ExperienceSection/>
       <ProjectSection/>
-
+      <MoreProjects/>
    </div>
   )
 }
