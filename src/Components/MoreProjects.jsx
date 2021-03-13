@@ -29,18 +29,26 @@ const MoreProjects = () => {
             </div>
             <div className="project-card-holder">
                 <OtherProjectsCard 
-                    title = "Title"
-                    github = "#"
-                    website = "#"
-                    desc = "description"
-                    techstack = {['React' , 'HTML']}
+                    title = "Live Covid-19 Cases Tracker"
+                    github = "https://github.com/Kawaljeet2001/Live-Covid-19Tracker"
+                    website = {false}
+                    desc = "The website helps you track corona stats all around the world. Important stats like the total number of infected cases, number of active cases, casualties, country-wise distribution as well as state-wise distribution for India is given."
+                    techstack = {['HTML' , 'CSS' , 'PHP' , 'Covid-19 API' , 'JQuery']}
                 />
-                <OtherProjectsCard />
-                <OtherProjectsCard />
-                <OtherProjectsCard />
-                <OtherProjectsCard />
-
-
+                <OtherProjectsCard 
+                    title = "IPL First Innings Score Prediction"
+                    github = "https://github.com/Kawaljeet2001/IPL-First-Innings-Score-Prediction"
+                    website = {false}
+                    desc = "This project uses machine learning regression approach to predict the first inning score of an IPL match, based on data of previous year cricket matches."
+                    techstack = {['Scikit Learn' , 'Pandas' , 'Seaborn' , 'Kaggle' , 'Numpy' , 'Pickle']}
+                />
+                <OtherProjectsCard 
+                    title = "Live Covid-19 Statistics"
+                    github = "https://github.com/Kawaljeet2001/Live-Covid-19Tracker"
+                    website = {false}
+                    desc = "The website helps you track corona stats all around the world. Important stats like the total number of infected cases, number of active cases, casualties, country-wise distribution as well as state-wise distribution for India is given."
+                    techstack = {['HTML' , 'CSS' , 'PHP' , 'Covid-19 API' , 'JQuery']}
+                />
             </div>
 
         </div>

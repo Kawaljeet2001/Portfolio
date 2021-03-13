@@ -361,7 +361,7 @@ button{
   height: 300px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .Experience-Section{
@@ -517,6 +517,7 @@ button{
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  width: 100%;
   margin-top: 10px;
 
 }
@@ -635,12 +636,37 @@ button{
     align-items: center;
     justify-content: center;
   }
+
+  .About-Section .contents{
+    flex-direction: column;
+  }
+
+  .About-Section .contents .right-container{
+   justify-content: center;
+  }
+
+  .Experience-Section{
+    width: 75%;
+  }
 }
 
 @media(max-width: 1100px){
   .OtherProjectsCard{
     width: 30vw;
     margin: 10px 12px;
+  }
+  .Experience-Section{
+    width: 65%;
+  }
+
+  .Projects-Section{
+    width: 70%;
+  }
+  .Projects-Section .project-image{
+    display: none;
+  }
+  .Projects-Section .project-content{
+    flex-basis: 100%;
   }
 }
 @media(max-width: 850px){
@@ -651,6 +677,12 @@ button{
     width: 30vw;
     margin: 10px 5px;
   }
+  .Projects-Section .project-content{
+    width: 75%;
+  }
+  .project-content{
+    margin-left: -35px;
+  }
 }
 
 @media(max-width: 640px){
@@ -660,5 +692,9 @@ button{
   .OtherProjectsCard{
     width: 63vw;
     margin: 10px 5px;
+  }
+  .Experience-Section{
+    width: 75%;
+    /* background: red; */
   }
 }
