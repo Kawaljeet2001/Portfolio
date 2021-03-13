@@ -1,4 +1,4 @@
-import React , {useRef , useEffect} from 'react'
+import React , {useState , useEffect} from 'react'
 import "./App.css";
 import Navbar from  "./Components/Navbar";
 import Landing from "./Components/Landing";
@@ -6,10 +6,10 @@ import Section from "./Components/Section";
 import ExperienceSection from "./Components/ExperienceSection";
 import ProjectSection from "./Components/ProjectSection"
 import MoreProjects from "./Components/MoreProjects";
+import LogoLoading from "./Components/LogoLoading";
 
 const App = () => {
-  const ref = useRef();
-
+  const [loading , setloading] = useState(true);
   function getdivheights()
   {
     var height1 = document.getElementsByClassName("Experience-Section");
@@ -18,38 +18,29 @@ const App = () => {
     return height1;
   }  
 
-  window.addEventListener('scroll' , () => {
+  useEffect(() => {
+    setTimeout(() => {
+      setloading(false);
+    } , 5800)
+  }, [])
 
-    var elm = getdivheights()[0];
-    // console.log(elm.style)
-    if(window.scrollY > elm.offsetTop)
-    {
-      
-      if (elm.style.opacity == '0')
-      {
-        var obj = {
-          marginTop: '100px',
-          opacity: '1',
-          animation: 'Landingload 1s ease',
-          animationDelay: '1s' ,
-          animationFillMode: 'forwards'
-       }
 
-       elm.style = obj;
-
-      }
-    }
- })
   
   return (  
-    <div className = "App">
-      <Navbar/>
-      <Landing/>
-      <Section/>
-      <ExperienceSection/>
-      <ProjectSection/>
-      <MoreProjects/>
-   </div>
+    <>
+    {
+      loading ? <LogoLoading /> : <div className="App">
+      
+      <Navbar />
+      <Landing />
+      <Section />
+      <ExperienceSection />
+      <ProjectSection />
+      <MoreProjects />
+    </div> 
+    }
+      
+   </>
   )
 }
 
