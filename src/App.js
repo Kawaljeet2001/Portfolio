@@ -13,8 +13,6 @@ const App = () => {
   function getdivheights()
   {
     var height1 = document.getElementsByClassName("Experience-Section");
-    // console.log(height1);
-
     return height1;
   }  
 
@@ -23,8 +21,6 @@ const App = () => {
       setloading(false);
     } , 5800)
   }, [])
-
-
   
   return (  
     <>

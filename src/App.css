@@ -478,6 +478,7 @@ button{
 
 .Other-Projects-Section{
   opacity: 0;
+  width: 75%;
   margin-top: 30px;
 }
 
@@ -492,10 +493,10 @@ button{
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  width: 16vw;
+  width: 18vw;
   padding: 10px 20px;
   height: 400px;
-  margin: 0px 7px;
+  margin: 0px 10px;
   background-color: #232a2f;
   border-radius: 4px;
   margin-top: 20px;
@@ -508,7 +509,7 @@ button{
   display: flex;
   flex-wrap: wrap;
   margin-top: 20px;
-  justify-content: flex-start;
+  justify-content: center;
 
 }
 
@@ -588,7 +589,8 @@ button{
   }
   .Navbar{
     flex-direction: column;
-    position: relative;
+    position: sticky;
+    top: 0;
   }
   #navbar-holder{
     flex-direction: column;
@@ -616,6 +618,8 @@ button{
   .res-logo-holder{
     display: flex;
     width: 100%;
+    position: sticky;
+    top: 0;
     /* background: red; */
     justify-content: space-between;
   }
@@ -630,5 +634,31 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+}
+
+@media(max-width: 1100px){
+  .OtherProjectsCard{
+    width: 30vw;
+    margin: 10px 12px;
+  }
+}
+@media(max-width: 850px){
+  .Other-Projects-Section{
+    width: 80%;
+  }
+  .OtherProjectsCard{
+    width: 30vw;
+    margin: 10px 5px;
+  }
+}
+
+@media(max-width: 640px){
+  .Other-Projects-Section{
+    width: 80%;
+  }
+  .OtherProjectsCard{
+    width: 63vw;
+    margin: 10px 5px;
   }
 }
