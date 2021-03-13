@@ -34,19 +34,39 @@ button{
   display: flex;
   z-index: 30;
   background: #161a1d;
+  /* background: red; */
   justify-content: space-between;
   align-items: center;
   position: sticky;
   top: 0;
-  width: 96%;
+  width: 100%;
   height: 10vh;
-  padding: 0px 30px;
+  /* padding: 0px 30px; */
   transition: 0.2s ease;
+}
+
+
+#navbar-holder{
+  /* width: 8%; */
+  height: 100%;
+  margin-right: 10px;
+  z-index: 38;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Navbar h4{
   letter-spacing: 2px;
   animation: fadein 3s ease;
+}
+
+.res-logo-holder{
+  /* background: green; */
+  /* display: none; */
+}
+.hamburger{
+  display: none;
 }
 .Navbar button{
   background: none;
@@ -77,7 +97,6 @@ button{
   color: #8da9c4  !important;
   border: 1px solid #8da9c4;
   border-radius: 6px;
-  margin-top: 18px;
 }
 
 #resume:hover{
@@ -96,10 +115,7 @@ button{
 }
 
 .Landing .Home{
-  /* padding-top: 30px; */
-
   opacity: 0;
-
   animation: Landingload 1s ease;
   animation-delay: 1s;
   animation-fill-mode: forwards;
@@ -119,6 +135,11 @@ button{
 
 .Navbar-active{
   box-shadow: 0px 2px 10px black;
+}
+
+#navbar-logo{
+  font-size: 20px;
+  margin-left: 20px;
 }
 
 .Navbar button span{
@@ -234,12 +255,6 @@ button{
   animation: fadein 1s ease;
   animation-delay: .60s;
   animation-fill-mode: forwards;
-}
-
-#navbar-holder{
-  height: 100%;
-  display: flex;
-  justify-content: center;
 }
 
 
@@ -543,4 +558,77 @@ button{
 
 .loading-video{
   width: 800px;
+}
+
+/*Media Queries*/
+
+@media(max-width: 720px){
+  .profiles-div{
+    display: none;
+  }
+
+  .email{
+    display: none;
+  }
+
+  .Section{
+    width: 75%;
+  }
+
+  .Home{
+    width: 75%;
+  }
+
+  .Home .about-para p{
+    width: 90%;
+  }
+
+  .hamburger{
+    display: block;
+  }
+  .Navbar{
+    flex-direction: column;
+    position: relative;
+  }
+  #navbar-holder{
+    flex-direction: column;
+    overflow: hidden;
+    transition: max-width 0.4s ease;
+    background: #161a1d;
+    width: 60%;
+    margin-top: 0;
+    height: 100vh;
+    top: 70px;
+    right: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+  }
+  #navbar-holder button{
+    /* background: green; */
+    width: 100%;
+    padding: 20px 0px;
+  }
+  #navbar-holder button:nth-child(1){
+    margin-top: 30px;
+  }
+  .res-logo-holder{
+    display: flex;
+    width: 100%;
+    /* background: red; */
+    justify-content: space-between;
+  }
+
+  .Navbar button{
+    margin: 0;
+  }
+
+  #resume{
+    width: 150px !important;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
