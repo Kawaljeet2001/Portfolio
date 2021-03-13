@@ -29,6 +29,13 @@ const MoreProjects = () => {
             </div>
             <div className="project-card-holder">
                 <OtherProjectsCard 
+                    title = "Portfolio Website"
+                    github = "https://github.com/Kawaljeet2001/Portfolio"
+                    website = {false}
+                    desc = "The website helps you track corona stats all around the world. Important stats like the total number of infected cases, number of active cases, casualties, country-wise distribution as well as state-wise distribution for India is given."
+                    techstack = {['React.js' , 'CSS' , 'JS' , 'Netlifly' , 'FontAwesome']}
+                />
+                <OtherProjectsCard 
                     title = "Live Covid-19 Cases Tracker"
                     github = "https://github.com/Kawaljeet2001/Live-Covid-19Tracker"
                     website = {false}
@@ -42,13 +49,7 @@ const MoreProjects = () => {
                     desc = "This project uses machine learning regression approach to predict the first inning score of an IPL match, based on data of previous year cricket matches."
                     techstack = {['Scikit Learn' , 'Pandas' , 'Seaborn' , 'Kaggle' , 'Numpy' , 'Pickle']}
                 />
-                <OtherProjectsCard 
-                    title = "Live Covid-19 Statistics"
-                    github = "https://github.com/Kawaljeet2001/Live-Covid-19Tracker"
-                    website = {false}
-                    desc = "The website helps you track corona stats all around the world. Important stats like the total number of infected cases, number of active cases, casualties, country-wise distribution as well as state-wise distribution for India is given."
-                    techstack = {['HTML' , 'CSS' , 'PHP' , 'Covid-19 API' , 'JQuery']}
-                />
+
             </div>
 
         </div>

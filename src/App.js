@@ -7,6 +7,7 @@ import ExperienceSection from "./Components/ExperienceSection";
 import ProjectSection from "./Components/ProjectSection"
 import MoreProjects from "./Components/MoreProjects";
 import LogoLoading from "./Components/LogoLoading";
+import Footer from "./Components/Footer";
 
 const App = () => {
   const [loading , setloading] = useState(true);
@@ -33,6 +34,7 @@ const App = () => {
       <ExperienceSection />
       <ProjectSection />
       <MoreProjects />
+      <Footer/>
     </div> 
     }
       
