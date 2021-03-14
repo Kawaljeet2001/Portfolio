@@ -11,9 +11,8 @@ const Navbar = () => {
     function handlescrolltodiv(e)
     {
         var divobj = document.getElementsByClassName(e.target.getAttribute('data-class'));
-        console.log(divobj); 
         var height = divobj[0].offsetTop;
-
+            
         window.scrollTo({
             top : height - 100,
             behavior : 'smooth'
@@ -38,7 +37,7 @@ const Navbar = () => {
     return (
         <div className={changenavbar ? 'Navbar Navbar-active' : 'Navbar'}>
             <div className="res-logo-holder">
-                <h4 id="navbar-logo">KSB</h4>
+                <h4 data-class = 'Landing' onClick = {handlescrolltodiv} id="navbar-logo">KSB</h4>
                 {iscollapsed ?
                     <button onClick={toggleheight} className="hamburger"><i className="fa fa-times fa-lg" aria-hidden="true"></i></button>
                     : (

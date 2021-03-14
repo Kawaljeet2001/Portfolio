@@ -170,6 +170,7 @@ button{
 #navbar-logo{
   font-size: 20px;
   margin-left: 20px;
+  cursor: pointer;
 }
 
 .Navbar button span{
