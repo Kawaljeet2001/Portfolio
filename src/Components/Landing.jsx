@@ -12,7 +12,7 @@ const Landing = () => {
                 <div className="vl"></div>
             </div>
             <div className="email">
-                <a href = "batrakawaljeetsingh@gmail.com"><p>batrakawaljeetsingh@gmail.com</p></a>
+                <a href = "mailto:batrakawaljeetsingh@gmail.com"><p>batrakawaljeetsingh@gmail.com</p></a>
                 <div className = "vl"></div>
             </div>
             <div className = "Home">

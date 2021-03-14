@@ -572,6 +572,37 @@ button{
 .loading-video{
   width: 800px;
 }
+.Contact-Section{
+  margin-top: 200px;
+  display: flex;
+  margin-bottom: 200px;
+  flex-direction: column;
+}
+.Contact-Section .contents{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Contact-Section .heading{
+  justify-content: center;
+}
+.Contact-Section .contents p{
+  text-align: center;
+}
+.sayhello{
+  color: #8da9c4 !important;
+  display: block;
+  height: 40px;
+  margin-top: 30px;
+  width: 150px;
+  background: none;
+  color: #8da9c4;
+  border: 1px solid #8da9c4;
+  border-radius: 6px;
+}
+.sayhello:hover{
+  background: rgba(141,169,196 , 0.2)
+}
 .Footer{
   background: #101010;
   height: 15vh;
