@@ -115,6 +115,25 @@ button{
   
 }
 
+.skill-holder{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+.skill-holder ul{
+  /* background:green; */
+  margin-left: -20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.skill-holder ul li{
+  margin: 10px 0px;
+  color:#8da9c4;
+}
 .Landing a{
   color: white;
   text-decoration: none;
@@ -757,6 +776,10 @@ button{
   }
   .project-content{
     margin-left: -35px;
+  }
+  .Experience-Section .work-experience{
+    width: 130%;
+    /* background: red; */
   }
 }
 

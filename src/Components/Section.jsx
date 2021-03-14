@@ -32,7 +32,58 @@ const Section = () => {
             <div className = "contents">
                 <div className = "left-container">
                     <p>Hello! I am Kawaljeet, a 4th semester student at IIIT Gwalior currently pursuing my Integrated B.Tech in Information Technology, with 9.32/10 Gradepoint.</p>
-                    <p>I like to build products that Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nemo ducimus in maiores eius saepe laborum veniam distinctio odit. Est quasi impedit dolore, modi eaque aliquam eius eligendi facere incidunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, corporis nam. Aliquam doloremque vel nihil, repellendus sed similique fuga modi soluta, eveniet perferendis dicta, voluptates nostrum. Voluptatum quasi alias quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias perferendis beatae nulla. At ipsum earum distinctio inventore aliquam perferendis eum nesciunt tenetur impedit recusandae! Nesciunt esse autem voluptatem doloremque optio.</p>
+                    <p>I am a MERN Stack and Python Developer and I really enjoy learning new things, seeking opportunities and building products that add value. My focus remains on 
+                        not just aquiring software engineering principles to make cool Applications, but at the same time, to integrate Machine Learning and Deep Learning Systems
+                        along with the application's UI, to create a hybrid product that is better than a regular Full Stack Application.
+                    </p>
+                    <p>I am focussed, organised and a good team player. In free time, I like to expand my skills in the field of Visual Effects and 3D Art.</p>
+                    <p>Here are the few Technologies I am familiar with: </p>
+                    <div className = "skill-holder">
+                        <ul>
+                            <li>
+                                React.js + Hooks
+                            </li>
+                            <li>
+                                Javascsript (ES6+), JQuery
+                            </li>
+                            <li>
+                                Node.js
+                            </li>
+                            <li>
+                                Express
+                            </li>
+                            <li>
+                                Git, Github
+                            </li>
+                            <li>
+                                MongoDB
+                            </li>
+                            <li>
+                                MySQL
+                            </li>
+                        </ul>
+                        <ul>
+                           
+                            <li>
+                                Python
+                            </li>
+                            <li>
+                                Django , Flask
+                            </li>
+                            <li>
+                                Scikit Learn
+                            </li>
+                            <li>
+                                NLP(NLTK)
+                            </li>
+                            <li>
+                                Pandas , Numpy
+                            </li>
+                            <li>
+                                Keras , Tensorflow
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <div className = "right-container">
                     <img className = "profile-image" src= {profile} alt="Kawaljeet Singh Batra"/>

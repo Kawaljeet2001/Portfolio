@@ -19,7 +19,7 @@ const Landing = () => {
                 <h3>Hi, I am</h3>
                 <h1>Kawaljeet Singh Batra.</h1>
                 <div className = "about-para">
-                    <p>I am a Tech Enthusiast and a Full Stack Developer. Seeking to leverage  broad developement experience in a challenging role. Currently, I am pursuing my B.Tech in Information Technology from Indian Institute of Information Technology, Gwalior.</p>
+                    <p>I am a Tech Enthusiast and a Full Stack Developer. Seeking to leverage  broad developement experience in a challenging role. Currently, I am pursuing my Integrated B.Tech in Information Technology from Indian Institute of Information Technology, Gwalior.</p>
                 </div>
                 <button className = "Letsconnect"><a href = "mailto:batrakawaljeetsingh@gmail.com">Let's Connect</a></button>
             </div>
