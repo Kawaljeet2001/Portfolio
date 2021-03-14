@@ -78,7 +78,6 @@ button{
   transition: 0.2s ease;
   opacity: 0;
   font-weight: bold;
-  animation-fill-mode: forwards;
   letter-spacing: 1px;
   font-size: 15px;
   font-family: 'Inconsolata', monospace;
@@ -240,30 +239,30 @@ button{
 
 @keyframes fadein{
   0% {
-    opacity: 0%;
+    opacity: 0;
   }
 
   100% {
-    opacity: 100%;
+    opacity: 1;
   }
 }
 
 @keyframes navbartext{
   0%{
-    opacity: 0%;
+    opacity: 0;
     margin-bottom: 40px;
   }
 
   100%{
-    opacity: 100%;
+    opacity: 1;
     margin-bottom: 0px;
   }
 }
 
 .Navbar button:nth-child(1){
   animation: navbartext 1s ease;
+  animation-delay: .01s;
   animation-fill-mode: forwards;
-  /* animation-delay: .3s; */
 }
 
 
