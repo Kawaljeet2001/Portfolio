@@ -595,6 +595,7 @@ button{
   width: 800px;
 }
 .Contact-Section{
+  opacity: 0;
   margin-top: 200px;
   display: flex;
   margin-bottom: 200px;
