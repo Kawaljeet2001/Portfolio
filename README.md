@@ -25,7 +25,15 @@ For setting up the project on a local machine
        npm install
     ```
 
-* To start the Dashboard app, run the command
+* To start the developement server, run the command
     ```
         npm run start
     ```
+
+
+
+* For making production optimized build:
+    ```
+        npm build
+    ```
+    This will create a build folder that contains index.html file and all used static files.
