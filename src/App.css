@@ -317,6 +317,9 @@ button{
   margin-top: 18px;
 }
 
+.Letsconnect a{
+  color:#8da9c4 !important;
+}
 .Letsconnect:hover{
   background: rgba(141,169,196 , 0.2)
 }
