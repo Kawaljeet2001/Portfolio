@@ -31,8 +31,8 @@ const MoreProjects = () => {
                 <OtherProjectsCard 
                     title = "Portfolio Website"
                     github = "https://github.com/Kawaljeet2001/Portfolio"
-                    website = {false}
-                    desc = "The website helps you track corona stats all around the world. Important stats like the total number of infected cases, number of active cases, casualties, country-wise distribution as well as state-wise distribution for India is given."
+                    website = "https://ksb-portfolio.netlify.app/"
+                    desc = "This portfolio is made using React Hooks, Font Awesome Icons , CSS and JS(ES-7)."
                     techstack = {['React.js' , 'CSS' , 'JS' , 'Netlifly' , 'FontAwesome']}
                 />
                 <OtherProjectsCard 

@@ -50,7 +50,7 @@ const Navbar = () => {
                 <button onClick = {handlescrolltodiv} data-class="Experience-Section"><span data-class="Experience-Section">02.</span>{'\u00A0'} Experience</button>
                 <button onClick = {handlescrolltodiv} data-class="Projects-Section"><span data-class="Projects-Section">03.</span>{'\u00A0'} Projects</button>
                 <button onClick = {handlescrolltodiv} data-class="Contact-Section"><span data-class="Contact-Section">04.</span>{'\u00A0'} Contact</button>
-                <button id="resume"><a rel="noreferrer" href="https://drive.google.com/file/d/1wjrUB53T9wmIXuHPuLlIz5BdefDjLwd8/view?usp=sharing" target="_blank">Resume</a></button>
+                <button id="resume"><a rel="noreferrer" href="https://drive.google.com/file/d/1vnTaxJ3DMIUM2tYrpCr1JOhGipHsV2BK/view?usp=sharing" target="_blank">Resume</a></button>
             </div>
         </div>
     )
