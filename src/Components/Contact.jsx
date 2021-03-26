@@ -14,7 +14,7 @@ const Contact = () => {
 
         var elm = getdivheights()[0];
         // console.log(elm.style)
-        if (window.scrollY > elm.offsetTop - 250) {
+        if (window.scrollY > elm.offsetTop - 280) {
             ref.current.style.opacity = '1';
             ref.current.style.animation = 'Landingload 1s ease';
             ref.current.style.animationFillMode = 'forwards';
