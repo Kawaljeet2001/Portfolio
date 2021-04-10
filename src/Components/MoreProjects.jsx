@@ -49,6 +49,20 @@ const MoreProjects = () => {
                     desc = "This project uses machine learning regression approach to predict the first inning score of an IPL match, based on data of previous year cricket matches."
                     techstack = {['Scikit Learn' , 'Pandas' , 'Seaborn' , 'Kaggle' , 'Numpy' , 'Pickle']}
                 />
+                <OtherProjectsCard 
+                    title = "React - Firebase Todo List App"
+                    github = "https://github.com/Kawaljeet2001/React-Firebase-TodoApp"
+                    website = "https://ksb-react-firebase-todo.netlify.app/"
+                    desc = "This is a minimalistic Todo App made using React Hooks, Firebase Firestore, and Material Ui."
+                    techstack = {['React' , 'Firebase-Firestore', 'Material Ui', 'CSS', 'Netlify', 'JS']}
+                />
+                <OtherProjectsCard 
+                    title = "Movie-Finder Chrome Extension"
+                    github = "https://github.com/Kawaljeet2001/First-Chrome-Extension---Tutorial"
+                    website = "https://batrakawaljeetsingh.medium.com/creating-your-first-chrome-extension-17d3ad3c7d5"
+                    desc = "This repository contains code files for Medium Blog: Creating a Chrome Extension from Scratch."
+                    techstack = {['HTML' , 'CSS' , 'Vanilla JS' , 'Chrome Developer API' , 'manifest.json' , 'Medium']}
+                />
 
             </div>
 

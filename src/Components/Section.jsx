@@ -47,6 +47,9 @@ const Section = () => {
                                 Javascsript (ES6+), JQuery
                             </li>
                             <li>
+                                JS Testing => Jest
+                            </li>
+                            <li>
                                 Node.js
                             </li>
                             <li>
@@ -57,6 +60,9 @@ const Section = () => {
                             </li>
                             <li>
                                 MongoDB
+                            </li>
+                            <li>
+                                Firebase - Firestore 
                             </li>
                             <li>
                                 MySQL
