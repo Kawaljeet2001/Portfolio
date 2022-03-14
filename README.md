@@ -1,70 +1,61 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Portfolio
 
-## Available Scripts
+This portfolio is made using React Hooks, Tailwind CSS, Firebase, React Icons and JS(ES-7).
 
-In the project directory, you can run:
 
-### `npm start`
+## Demo Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Home Section Screenshot](https://firebasestorage.googleapis.com/v0/b/portfolio-b8622.appspot.com/o/121.JPG?alt=media&token=56ab9e88-ee03-47b2-9695-5798725f2df2)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Skill Section Screenshot](https://firebasestorage.googleapis.com/v0/b/portfolio-b8622.appspot.com/o/122.JPG?alt=media&token=d123cd12-daa4-4df7-8750-954075bc1e95)
 
-### `npm test`
+![Projects Section Screenshot](https://firebasestorage.googleapis.com/v0/b/portfolio-b8622.appspot.com/o/123.JPG?alt=media&token=dcf3a8fa-4f78-4c74-9bc5-88d5843e9b48)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Contact Section Screenshot](https://firebasestorage.googleapis.com/v0/b/portfolio-b8622.appspot.com/o/124.JPG?alt=media&token=d0e657d5-c163-47a5-a4c7-0526fdfe60e7)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Can someone use this template?
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Sure! This is the best thing about being a part of Open Source Community. Anyone can use this template. Attribution would greatly appreciated.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## How to setup Locally?
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+For setting up the project on a local machine
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Fork this repository.
+* Clone the repository using simple zip download or use the command
+    ```
+        git clone https://github.com/{Your-Username}/Portfolio.git
+        
+    ```
+* Move to the master branch by using command
+    ```
+        git checkout  v2
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Install all the dependencies from package.json
+    ```
+       npm install
+    ```
+* Also create a .env file inside the root of your project and setup environment variables for Firebase Storage Engine and Firestore DB
+    ```
+        REACT_APP_apiKey
+        REACT_APP_messagingSenderId
+        REACT_APP_appId
+        REACT_APP_projectId
+    ```
+    
+* To start the developement server, run the command
+    ```
+        npm run start or yarn start
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+* For making production optimized build:
+    ```
+        npm build or yarn build
+    ```
+    This will create a build folder that contains index.html file and all used static files.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
