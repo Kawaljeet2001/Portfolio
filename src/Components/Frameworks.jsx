@@ -1,16 +1,18 @@
 import React from "react";
 import { FaReact, FaNodeJs } from "react-icons/fa";
-import { DiMongodb, DiDjango, DiMysql } from "react-icons/di";
+import { DiDjango} from "react-icons/di";
 import {
   SiTailwindcss,
-  SiPostgresql,
   SiRedux,
   SiNextdotjs,
+  SiNestjs,
 } from "react-icons/si";
+import {RiVuejsLine} from "react-icons/ri";
+
 const Frameworks = () => {
   return (
     <div
-      className="flex flex-col items-start py-4 px-8 w-full rounded-lg mt-10"
+      className="flex flex-col items-start py-4 px-6 w-full rounded-lg col-span-12 lg:col-span-4"
       style={{
         boxShadow:
           "rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px",
@@ -23,7 +25,7 @@ const Frameworks = () => {
       <div className="flex items-center flex-wrap mt-8 w-fulljustify-center">
         <div className="flex flex-col items-center mx-3 md:mx-4 my-4">
           <FaReact className="text-3xl md:text-5xl text-gray-400" />
-          <p className="text-lightGreen text-sm md:text-base ">React.js</p>
+          <p className="text-lightGreen text-sm md:text-base ">React Js</p>
         </div>
         <div className="flex flex-col items-center mx-3 md:mx-4 my-4">
           <SiRedux className="text-3xl md:text-5xl text-gray-400" />
@@ -31,11 +33,19 @@ const Frameworks = () => {
         </div>
         <div className="flex flex-col items-center mx-3 md:mx-4 my-4">
           <SiNextdotjs className="text-3xl md:text-5xl text-gray-400" />
-          <p className="text-lightGreen text-sm md:text-base ">Next.js</p>
+          <p className="text-lightGreen text-sm md:text-base ">Next Js</p>
+        </div>
+        <div className="flex flex-col items-center mx-3 md:mx-4 my-4">
+          <RiVuejsLine className="text-3xl md:text-5xl text-gray-400" />
+          <p className="text-lightGreen text-sm md:text-base ">Vue Js</p>
         </div>
         <div className="flex flex-col items-center mx-3 md:mx-4 my-4">
           <FaNodeJs className="text-3xl md:text-5xl text-gray-400" />
-          <p className="text-lightGreen text-sm md:text-base ">Node.js</p>
+          <p className="text-lightGreen text-sm md:text-base ">Node Js</p>
+        </div>
+        <div className="flex flex-col items-center mx-3 md:mx-4 my-4">
+          <SiNestjs className="text-3xl md:text-5xl text-gray-400" />
+          <p className="text-lightGreen text-sm md:text-base ">Nest Js</p>
         </div>
         <div className="flex flex-col items-center mx-3 md:mx-4 my-4">
           <DiDjango className="text-3xl md:text-5xl text-gray-400" />
@@ -44,18 +54,6 @@ const Frameworks = () => {
         <div className="flex flex-col items-center mx-3 md:mx-4 my-4">
           <SiTailwindcss className="text-3xl md:text-5xl text-gray-400" />
           <p className="text-lightGreen text-sm md:text-base ">Tailwind CSS</p>
-        </div>
-        <div className="flex flex-col items-center mx-3 md:mx-4 my-4">
-          <DiMongodb className="text-3xl md:text-5xl text-gray-400" />
-          <p className="text-lightGreen text-sm md:text-base ">Mongo DB</p>
-        </div>
-        <div className="flex flex-col items-center mx-3 md:mx-4 my-4">
-          <DiMysql className="text-3xl md:text-5xl text-gray-400" />
-          <p className="text-lightGreen text-sm md:text-base ">MySQL</p>
-        </div>
-        <div className="flex flex-col items-center mx-3 md:mx-4 my-4">
-          <SiPostgresql className="text-3xl md:text-5xl text-gray-400" />
-          <p className="text-lightGreen text-sm md:text-base ">PostgreSQL</p>
         </div>
       </div>
     </div>

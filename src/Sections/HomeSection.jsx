@@ -1,5 +1,7 @@
 import React from "react";
 // import { ResumeURL } from "../Constants/ProfileDetails";
+import { AiOutlineFileDone } from "react-icons/ai";
+import { RESUME_URL } from "../Constants";
 
 const HomeSection = ({ reference, contactSectionRef }) => {
   const scrollToSection = (ref) => {
@@ -40,12 +42,21 @@ const HomeSection = ({ reference, contactSectionRef }) => {
           Information Technology from{" "}
           <span className="text-white font-bold opacity-80">IIIT Gwalior</span>.
         </p>
-        <button
+        {/* <button
           className="text-lightGreen text-xl font-bold mt-10 border-b-2 border-green-300 border-opacity-80 hover:text-white"
           onClick={() => executeScroll(contactSectionRef)}
         >
           LET'S CHAT!
-        </button>
+        </button> */}
+        <a
+            className="bg-lightGreen py-2.5 mt-6 px-4 rounded-md text-darkGrey font-bold flex items-center hover:bg-white"
+            href={RESUME_URL}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Download Resume{" "}
+            <AiOutlineFileDone className="ml-3 font-bold text-lg" />
+          </a>
       </div>
     </div>
   );

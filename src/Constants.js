@@ -1,6 +1,6 @@
 export const LINKEDIN_URL = "https://www.linkedin.com/in/kawaljeetsinghbatra/";
 export const GITHUB_URL = "https://github.com/Kawaljeet2001";
-export const RESUME_URL = "https://drive.google.com/file/d/16zjtZR4z9NOPKGB7Jt2F9j64hAGbAzXL/view";
+export const RESUME_URL = "https://drive.google.com/file/d/1pZYgSNmgUoR2epgbATO2ORqIQtig52x8/view?usp=sharing";
 export const INSTAGRAM_URL = "https://www.instagram.com/kawaljeet_sb/";
 export const EMAIL_URL = "mailto:batrakawaljeetsingh@gmail.com";
 export const ARTSTATIONURL = "https://www.artstation.com/kawal2001singh"

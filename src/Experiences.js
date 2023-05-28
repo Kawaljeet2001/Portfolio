@@ -1,14 +1,22 @@
 export const Experiences = [
   {
     direction: "right",
+    title: "Product Engineering Intern",
+    link: "https://whitecarrot.io",
+    start: "May 2023",
+    end: "Present",
+    organisation: "Whitecarrot.io",
+  },
+  {
+    direction: "left",
     title: "Software Engineer Intern",
-    link: "httsp://equiseedwealth.com",
+    link: "https://equiseedwealth.com",
     start: "May 2021",
     end: "August 2021",
     organisation: "Equiseed Wealth",
   },
   {
-    direction: "left",
+    direction: "right",
     title: "Research Content Writer Intern",
     link: "https://thesocians.com",
     start: "June 2020",
@@ -16,9 +24,9 @@ export const Experiences = [
     organisation: "The Socians",
   },
   {
-    direction: "right",
+    direction: "left",
     title: "Software Developer Intern",
-    link: "httsp://wondermaths.com",
+    link: "https://wondermaths.com",
     start: "December 2019",
     end: "February 2020",
     organisation: "Wonder Maths",
