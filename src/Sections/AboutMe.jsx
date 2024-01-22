@@ -22,14 +22,14 @@ const AboutMe = ({ reference }) => {
         </div>
         <div className="flex items-start flex-col justify-center w-11/12 md:w-6/12 md:mt-0 mt-10 px-6 md:px-12">
           <p className="text-gray-200">
-            Hello! I am Kawaljeet, a 9th semester (5th year) student at IIIT Gwalior
-            currently pursuing my Integrated B.Tech in Information Technology,
-            with <span className="font-extrabold text-lightGreen">9.30/10</span> CPI.
+            Hello! I am Kawaljeet, a 10th semester (5th year) student at IIIT Gwalior
+            currently pursuing my Integrated B.Tech in Information Technology + MBA,
+            with <span className="font-extrabold text-lightGreen">9.32/10</span> CPI.
           </p>
           <p className="text-gray-400 mt-5">
             I am a MERN Stack and Python Developer and I really enjoy learning
             new things, seeking opportunities and building products that add
-            value. My focus remains on not just aquiring software engineering
+            value. My focus remains on not just acquiring software engineering
             principles to make cool Applications, but at the same time, to
             integrate Machine Learning and Deep Learning Systems along with the
             application's UI, to create a hybrid product that is better than a

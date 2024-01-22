@@ -142,7 +142,7 @@ const Navbar = ({
             &nbsp;Singh Batra
           </span>
         </a>
-        <div className="hidden md:flex items-center font-mono float-right top-0 w-6/12">
+        <div className="hidden md:flex items-center font-mono float-right top-0 w-7/12">
           {buttonData.map((item, index) => (
             <button
               className={` ${

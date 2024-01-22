@@ -11,7 +11,7 @@ const ExperienceCard = ({
 }) => {
   return (
     <div
-      className={`w-11/12 md:w-6/12 flex ${
+      className={`w-11/12 md:w-7/12 flex ${
         direction === "right" ? "flex-row-reverse" : "flex-row"
       } items-center justify-center`}
     >
