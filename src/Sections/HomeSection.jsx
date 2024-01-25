@@ -27,7 +27,7 @@ const HomeSection = ({ reference, contactSectionRef }) => {
       <div className="mt-20 md:mt-32 w-full flex items-start flex-col px-2 md:px-24">
         <div className="px-2 py-1 bg-lightGreen w-40 md:w-52 rounded-sm flex items-center justify-center">
           <p className="text-slateGrey font-bold font-mono text-sm md:text-base">
-            Software Engineer
+            IT Professional
           </p>
         </div>
         <h2 className="text-white text-3xl md:text-6xl font-bold mt-6">
