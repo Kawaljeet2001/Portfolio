@@ -1,11 +1,11 @@
 export const Experiences = [
   {
     direction: "left",
-    title: "Senior Product Analyst Intern",
+    title: "Product Intern",
     link: "https://www.dell.com/en-in",
     start: "February 2024",
     end: "Present",
-    organisation: "Dell International Services",
+    organisation: "Dell Technologies",
   },
     {
     direction: "right",
